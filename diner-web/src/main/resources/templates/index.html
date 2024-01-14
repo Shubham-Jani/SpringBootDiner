@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Dishes</title>
+</head>
+<body>
+<!--/*@thymesVar id="dishes" type="jani.food.diner.core.model.Dish"*/-->
+<ul th:each="dish : ${dishes}">
+  <!--/*@thymesVar id="name" type="jani.food.diner.core.model.Dish"*/-->
+  <li th:text="${dish.name}">Dish Name</li>
+  <li th:text="${dish.dishType.name}">Dish Name</li>
+  <li th:text="${dish.price}">Dish Name</li>
+</ul>
+</body>
+</html>
