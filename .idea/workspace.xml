@@ -5,41 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7388c27b-37e8-48c1-9910-7f733c6d5be4" name="Changes" comment="First Commit with JPA">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/DishType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/model/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/ChefService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/CrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/DishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/DishTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/WaiterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/AbstractMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/ChefMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/CustomerMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/DishMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/DishTypeMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/EmployeeMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/OrderMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-core/src/main/java/jani/food/diner/core/service/map/WaiterMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-web/src/main/java/jani/food/diner/web/bootstrap/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-web/src/main/java/jani/food/diner/web/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diner-web/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,8 +119,25 @@
       <option name="presentableId" value="Default" />
       <updated>1705147537271</updated>
       <workItem from="1705147538340" duration="4846000" />
-      <workItem from="1705234623587" duration="4394000" />
+      <workItem from="1705234623587" duration="4727000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit with JPA">
+      <option name="closed" value="true" />
+      <created>1705246017079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705246017079</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit with JPA">
+      <option name="closed" value="true" />
+      <created>1705246159065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705246159065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
