@@ -1,6 +1,6 @@
 package jani.food.diner.core.service;
 
-import jani.food.diner.core.model.Order;
+import jani.food.diner.core.model.FoodOrder;
 
-public interface OrderService extends CrudService<Order,Long> {
+public interface OrderService extends CrudService<FoodOrder,Long> {
 }

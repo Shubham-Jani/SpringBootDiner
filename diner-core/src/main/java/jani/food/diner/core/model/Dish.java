@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import java.util.Set;
+
 @Data
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
@@ -22,5 +24,8 @@ public class Dish extends  BaseEntity{
 
     @Lob
     private Byte[] image;
+
+    @ManyToMany(mappedBy = "dishes")
+    private Set<FoodOrder> foodOrders;
 
 }
